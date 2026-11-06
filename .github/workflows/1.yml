@@ -18,8 +18,7 @@ jobs:
         with:
           node-version: 22
 
-      - name: Install dependencies
-        run: npm install
+      # 已删除了 npm install 这一步
 
       - name: Deploy Worker
         env:
